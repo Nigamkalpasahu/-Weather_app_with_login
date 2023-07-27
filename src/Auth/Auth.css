@@ -1,0 +1,250 @@
+.right-form{
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #F5F5F5;
+}
+.sign{
+    font-size: 20px;
+    top: 400px;
+    left: 600px;
+}
+.sign p{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: -15px;
+}
+.cointainer
+{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.form{
+    display: flex;
+    position: absolute;
+    height: 350px;
+    width: 700px;
+    margin-top: 20px;
+    background: #5690bd;
+    border-radius: 20px;
+}
+
+.form p{
+    font-family: 'Lato';
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#email{
+    margin-left: 30px;
+    width: 350px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    border: none;  
+}
+
+#password{
+    margin-left: 30px;
+    width: 350px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    border: none; 
+    display: block;
+}
+
+.forgot{
+    color: rgb(63, 7, 51);
+    text-decoration: none; 
+    font-size: 15px;
+    margin-left: 30px; 
+    display: block;
+}
+
+.submit{
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 32px;
+    width: 350px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+ 
+
+.ifnotaccount{
+    margin-top: 400px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.ifnotaccount span{
+    color: rgb(230, 126, 22);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@media  (min-width: 800px) and  (max-width:1000px){
+    .right-form{
+        width: 100%; 
+        height: 100%;
+        position: absolute; 
+        background-color: #F5F5F5;
+    }
+    .cointainer{
+        font-size: 10px;
+        margin-left: 40px;
+    } 
+    
+    .form{
+        position: absolute;
+        height: 280px;
+        width: 400px;
+        margin-top: 20px;
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+    .form p{
+        font-family: 'Lato';
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .form a{
+        font-size: 13px;
+    }
+    #email{
+        width: 350px;
+       height: 31px;
+       border-radius: 10px;
+       background-color: #F5F5F5;
+       border: none;
+    }
+    .sign h1{
+        font-size: 30px;
+        margin-top: -20px;
+    }
+    .sign p{
+        font-size: 13px;
+    }  
+}
+
+ @media  (min-width: 499px) and  (max-width:799px){
+    .right-form{
+        width: 100%; 
+        height: 100%;
+        position: absolute; 
+        background-color: #F5F5F5;
+    }
+    .cointainer{
+        font-size: 10px;
+        margin-left: 10px;
+    }   
+    .form{
+        position: absolute;
+        height: 280px;
+        width: 400px;
+        margin-top: 20px;
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+    .form p{
+        font-family: 'Lato';
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .form a{
+        font-size: 13px;
+    }
+    #email{
+        width: 350px;
+       height: 31px;
+       border-radius: 10px;
+       background-color: #F5F5F5;
+       border: none;
+    }
+    .sign h1{
+        font-size: 30px;
+        margin-top: -20px;
+    }
+    .sign p{
+        font-size: 13px;
+    }
+}
+
+
+@media  (min-width: 400px) and (max-width: 600px)
+{
+    .all{
+        overflow: hidden;
+    }
+    .right-form{
+        position: absolute; 
+        height: 100%;
+        width: 100%;
+        background-color: #F5F5F5;
+    }
+    .cointainer{
+        font-size: 10px;
+        margin-left: 90px;
+    }   
+    .form{
+        position: absolute;
+        height: 250px;
+        width: 400px;
+        margin-top: 20px;
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+    .form p{
+        font-family: 'Lato';
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .form a{
+        font-size: 13px;
+    }
+    #email{
+        width: 350px;
+       height: 31px;
+       border-radius: 10px;
+       background-color: #F5F5F5;
+       border: none;
+    }
+    .sign h1{
+        font-size: 30px;
+        margin-top: -20px;
+    }
+    .sign p{
+        font-size: 13px;
+    }
+    .ifnotaccount{
+        margin-top: 304px;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .ifnotaccount span{
+        color: blue;
+        cursor: pointer;
+        font-size: 13px;
+    }
+   .ifnotaccount{
+       margin-top: 285px;
+       margin-left: 10px;
+       font-size: 13px;
+    }
+   .ifnotaccount span{
+        color: blue;
+        cursor: pointer;
+        font-size: 13px;
+    }
+    
+} 
